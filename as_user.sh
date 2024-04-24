@@ -8,3 +8,6 @@ if [ ! -d "$HOME/.fzf" ]; then
     git clone --depth 1 https://github.com/junegunn/fzf.git $HOME/.fzf
     yes | $HOME/.fzf/install
 fi
+
+echo 'touch /home/$USER/host-cachedir/bash_history' >> /home/$USER/.bashrc
+echo 'ln -sfn /home/$USER/host-cachedir/bash_history /home/$USER/.bash_history' >> /home/$USER/.bashrc
