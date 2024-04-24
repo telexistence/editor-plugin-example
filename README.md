@@ -17,6 +17,5 @@
 - user権限でas_user.shを起動
 
 ### as_user.sh
-- tmuxのコンフィグを変更（prefixキーがctrl-w）
+- tmuxのコンフィグを変更（prefixキーをctrl-wに変更）
 - fzfのインストール（ターミナルの履歴機能を強化する）
-- bash履歴をホストのキャッシュに保存し，コンテナを再起動しても履歴を引き継ぐ
